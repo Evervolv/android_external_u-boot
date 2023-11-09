@@ -15,11 +15,11 @@
 	"name=misc,size=128K,uuid=${uuid_gpt_misc};" \
 	"name=dtbo,size=8M,uuid=${uuid_gpt_dtbo};"  \
 	"name=vbmeta,size=64K,uuid=${uuid_gpt_vbmeta};" \
-	"name=boot,size=32M,bootable,uuid=${uuid_gpt_boot};" \
-	"name=recovery,size=32M,uuid=${uuid_gpt_recovery};"	\
+	"name=boot,size=64M,bootable,uuid=${uuid_gpt_boot};" \
+	"name=recovery,size=64M,uuid=${uuid_gpt_recovery};"	\
 	"name=cache,size=256M,uuid=${uuid_gpt_cache};"	\
 	"name=super,size=2304M,uuid=${uuid_gpt_super};"	\
-	"name=userdata,size=4820M,uuid=${uuid_gpt_userdata};" \
+	"name=userdata,size=4756M,uuid=${uuid_gpt_userdata};" \
 	"name=rootfs,size=-,uuid=" ROOT_UUID
 
 #include <configs/meson64_android.h>
